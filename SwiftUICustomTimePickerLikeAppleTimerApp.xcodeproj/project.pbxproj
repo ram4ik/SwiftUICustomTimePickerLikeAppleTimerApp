@@ -11,6 +11,7 @@
 		5EB8FC252C2FE6330001B060 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB8FC242C2FE6330001B060 /* ContentView.swift */; };
 		5EB8FC272C2FE6350001B060 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EB8FC262C2FE6350001B060 /* Assets.xcassets */; };
 		5EB8FC2A2C2FE6350001B060 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EB8FC292C2FE6350001B060 /* Preview Assets.xcassets */; };
+		5EB8FC322C2FE6570001B060 /* TimePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB8FC312C2FE6570001B060 /* TimePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		5EB8FC242C2FE6330001B060 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5EB8FC262C2FE6350001B060 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5EB8FC292C2FE6350001B060 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5EB8FC312C2FE6570001B060 /* TimePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		5EB8FC212C2FE6330001B060 /* SwiftUICustomTimePickerLikeAppleTimerApp */ = {
 			isa = PBXGroup;
 			children = (
+				5EB8FC302C2FE6460001B060 /* Views */,
 				5EB8FC222C2FE6330001B060 /* SwiftUICustomTimePickerLikeAppleTimerAppApp.swift */,
 				5EB8FC242C2FE6330001B060 /* ContentView.swift */,
 				5EB8FC262C2FE6350001B060 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				5EB8FC292C2FE6350001B060 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5EB8FC302C2FE6460001B060 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5EB8FC312C2FE6570001B060 /* TimePicker.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EB8FC322C2FE6570001B060 /* TimePicker.swift in Sources */,
 				5EB8FC252C2FE6330001B060 /* ContentView.swift in Sources */,
 				5EB8FC232C2FE6330001B060 /* SwiftUICustomTimePickerLikeAppleTimerAppApp.swift in Sources */,
 			);
